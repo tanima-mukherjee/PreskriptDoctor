@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.ogma.preskriptdoctor">
+
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme.NoActionBar">
+        <activity android:name=".activity.DashboardKt">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".activity.Appointments" />
+        <activity android:name=".activity.ReportCheck" />
+        <activity android:name=".activity.ReferToDoctor" />
+        <activity android:name=".activity.ReferToDoctorDetails" />
+        <activity android:name=".activity.GetReference" />
+        <activity android:name=".activity.ReportCheckDetails" />
+        <activity android:name=".activity.ReferToHospital" />
+        <activity android:name=".activity.ReferToHospitalDetails" />
+        <activity android:name=".activity.ReferToDiagnostic" />
+        <activity android:name=".activity.ReferToDiagnosticDetails" />
+        <activity android:name=".activity.GroupDiscussion" />
+        <activity android:name=".activity.TreatmentEnquiry" />
+        <activity android:name=".activity.GroupDiscussionDetail" />
+        <activity android:name=".activity.TreatmentSchedule" />
+        <activity android:name=".activity.TreatmentEnquiryDetails" />
+        <activity android:name=".activity.SuccessStory"></activity>
+    </application>
+
+</manifest>

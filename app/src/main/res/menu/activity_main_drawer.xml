@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group
+        android:id="@+id/nav_group_primary"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_dashboard"
+            android:icon="@drawable/ic_menu_dashboard_hover"
+            android:title="Preskript Home" />
+        <!--<item-->
+        <!--android:id="@+id/nav_doctor_booking"-->
+        <!--android:icon="@drawable/ic_menu_doctor_booking_hover"-->
+        <!--android:title="Doctor Bookings" />-->
+        <!--<item-->
+        <!--android:id="@+id/nav_diagnosis_booking"-->
+        <!--android:icon="@drawable/ic_menu_diagnosis_booking_hover"-->
+        <!--android:title="Online Diagnosis Bookings" />-->
+        <!--<item-->
+        <!--android:id="@+id/nav_equipment_booking"-->
+        <!--android:icon="@drawable/ic_menu_equipment_booking_hover"-->
+        <!--android:title="Medicine &amp; Equipement Bookings" />-->
+        <!--<item-->
+        <!--android:id="@+id/nav_blood_booking"-->
+        <!--android:icon="@drawable/ic_blood_booking_hover"-->
+        <!--android:title="Blood Bookings" />-->
+        <!--<item-->
+        <!--android:id="@+id/nav_second_opinion_booking"-->
+        <!--android:icon="@drawable/ic_menu_second_opinion_booking_hover"-->
+        <!--android:title="Second Opinion Bookings" />-->
+        <!--<item-->
+        <!--android:id="@+id/nav_doctor_suggestion_booking"-->
+        <!--android:icon="@drawable/ic_menu_doctor_suggetions_hover"-->
+        <!--android:title="Doctor's Suggestion Bookings" />-->
+        <!--<item-->
+        <!--android:id="@+id/nav_ambulance_booking"-->
+        <!--android:icon="@drawable/ic_menu_ambulance_booking_hover"-->
+        <!--android:title="Ambulance Bookings" />-->
+        <!--<item-->
+        <!--android:id="@+id/nav_medical_insurance_booking"-->
+        <!--android:icon="@drawable/ic_menu_insurance_booking_hover"-->
+        <!--android:title="Medical Insurance Bookings" />-->
+        <!--<item-->
+        <!--android:id="@+id/nav_old_age_support_booking"-->
+        <!--android:icon="@drawable/ic_menu_old_age_support_hover"-->
+        <!--android:title="Old Age Support Booking" />-->
+        <!--<item-->
+        <!--android:id="@+id/nav_preskript_support_booking"-->
+        <!--android:icon="@drawable/ic_menu_support_hover"-->
+        <!--android:title="Preskript Support Booking" />-->
+        <!--<item-->
+        <!--android:id="@+id/nav_emergency_service_booking"-->
+        <!--android:icon="@drawable/ic_menu_emergency_service_hover"-->
+        <!--android:title="Emergency Service Booking" />-->
+        <!--<item-->
+        <!--android:id="@+id/nav_zero_balance_hospitalization_booking"-->
+        <!--android:icon="@drawable/ic_menu_hospitalization_booking_hover"-->
+        <!--android:title="Zero Balance Hopitalization Booking" />-->
+        <!--<item-->
+        <!--android:id="@+id/nav_treatment_consultancy_booking"-->
+        <!--android:icon="@drawable/ic_menu_treatment_hover"-->
+        <!--android:title="Treatment Consultancy Booking" />-->
+
+    </group>
+
+    <!--<item android:title="My Account">-->
+    <!--<menu>-->
+    <!--<group-->
+    <!--android:id="@+id/nav_group_secondary"-->
+    <!--android:checkableBehavior="none">-->
+    <!--<item-->
+    <!--android:id="@+id/nav_profile"-->
+    <!--android:icon="@drawable/ic_menu_profile_hover"-->
+    <!--android:title="My Profile" />-->
+    <!--<item-->
+    <!--android:id="@+id/nav_change_password"-->
+    <!--android:icon="@drawable/ic_menu_change_password_hover"-->
+    <!--android:title="Change Password" />-->
+    <!--<item-->
+    <!--android:id="@+id/nav_settings"-->
+    <!--android:icon="@drawable/ic_menu_settings_hover"-->
+    <!--android:title="Settings" />-->
+    <!--<item-->
+    <!--android:id="@+id/nav_logout"-->
+    <!--android:icon="@drawable/ic_menu_logout_hover"-->
+    <!--android:title="Logout" />-->
+    <!--</group>-->
+    <!--</menu>-->
+    <!--</item>-->
+
+    <!--<group-->
+    <!--android:id="@+id/nav_group_rest"-->
+    <!--android:checkableBehavior="none">-->
+    <!--<item-->
+    <!--android:id="@+id/nav_testimonials"-->
+    <!--android:icon="@drawable/ic_menu_testimonials"-->
+    <!--android:title="Testimonials" />-->
+    <!--<item-->
+    <!--android:id="@+id/nav_team"-->
+    <!--android:icon="@drawable/ic_menu_people"-->
+    <!--android:title="Team" />-->
+    <!--<item-->
+    <!--android:id="@+id/nav_contact"-->
+    <!--android:icon="@drawable/ic_menu_message"-->
+    <!--android:title="Contact" />-->
+    <!--<item-->
+    <!--android:id="@+id/nav_about"-->
+    <!--android:icon="@drawable/ic_menu_about"-->
+    <!--android:title="About" />-->
+    <!--</group>-->
+
+    <!--<group android:checkableBehavior="none">-->
+    <!--<item-->
+    <!--android:id="@+id/nav_logout"-->
+    <!--android:icon="@drawable/ic_menu_power_settings_new"-->
+    <!--android:title="Logout" />-->
+    <!--</group>-->
+
+</menu>

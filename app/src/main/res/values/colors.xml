@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#0f71b8</color>
+    <color name="colorPrimaryDark">#0a4f80</color>
+    <color name="colorAccent">#b8003d</color>
+    <color name="colorAccentLight">#636ed6</color>
+
+    <color name="colorBackground">#e3e3e3</color>
+    <color name="colorBackgroundLight">#f3f3f3</color>
+
+    <color name="black_overlay">#66000000</color>
+    <color name="black_overlay_dark">#88000000</color>
+    <color name="black_overlay_light">#22000000</color>
+    <color name="colorNavyBlueDark">#112d51</color>
+    <color name="colorRedLight">#fe4138</color>
+    <color name="colorGreenDark">#197b30</color>
+    <color name="colorPurpleDark">#662d91</color>
+    <color name="colorSkyLight">#00a3da</color>
+    <color name="colorPinkishGrey">#484c55</color>
+    <color name="colorPinkDark">#ed145b</color>
+    <color name="colorGreenLight">#54b147</color>
+    <color name="colorBrownLight">#f68e56</color>
+    <color name="colorBlueDark">#2e3192</color>
+    <color name="colorBrownDark">#603913</color>
+    <color name="colorPinkDarkVery">#7a0026</color>
+    <color name="colorPurpleLight">#92278f</color>
+
+    <color name="colorTabUnselected">#70FFFFFF</color>
+
+</resources>

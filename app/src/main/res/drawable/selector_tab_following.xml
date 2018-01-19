@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!--<item android:drawable="@drawable/ic_home_selected" android:state_pressed="true" /> &lt;!&ndash; pressed &ndash;&gt;-->
+    <!--<item android:drawable="@drawable/ic_home_selected" android:state_focused="true" /> &lt;!&ndash; focused &ndash;&gt;-->
+    <!--<item android:drawable="@drawable/ic_home_selected" android:state_hovered="true" /> &lt;!&ndash; hovered &ndash;&gt;-->
+    <item android:drawable="@drawable/ic_following_selected" android:state_selected="true" /> <!-- selected -->
+    <item android:drawable="@drawable/ic_following" /> <!-- default -->
+</selector>

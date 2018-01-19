@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.ogma.preskriptdoctor.activity.GroupDiscussionDetail">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <!--For showing SnackBar above Button-->
+        <android.support.design.widget.CoordinatorLayout
+            android:id="@+id/coordinator_layout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_above="@+id/button_bar_layout">
+
+            <android.support.design.widget.AppBarLayout
+                android:id="@+id/app_bar_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <android.support.design.widget.CollapsingToolbarLayout
+                    android:id="@+id/collapsing_toolbar_layout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:collapsedTitleTextAppearance="@style/TextAppearance.Widget.AppCompat.Toolbar.Title.Inverse"
+                    app:contentScrim="@color/colorPrimary"
+                    app:expandedTitleTextAppearance="@style/TextAppearance.Design.CollapsingToolbar.Expanded.Invisible"
+                    app:layout_scrollFlags="scroll|exitUntilCollapsed|snap"
+                    app:title="Group Discussion"
+                    app:titleEnabled="false">
+
+                    <android.support.v7.widget.Toolbar
+                        android:id="@+id/toolbar"
+                        android:layout_width="match_parent"
+                        android:layout_height="?attr/actionBarSize"
+                        android:background="@color/colorPrimary"
+                        android:gravity="center"
+                        android:minHeight="?attr/actionBarSize"
+                        app:contentInsetEnd="16dp"
+                        app:contentInsetEndWithActions="16dp"
+                        app:contentInsetStartWithNavigation="16dp"
+                        app:layout_collapseMode="pin"
+                        app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+                        app:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+                        app:titleTextColor="@android:color/white">
+
+                        <TextView
+                            android:id="@+id/tv_toolbar_title"
+                            style="@style/TextAppearance.Widget.AppCompat.Toolbar.Title"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:maxLines="1"
+                            android:text="Group Discussion"
+                            android:textColor="@android:color/white" />
+
+                    </android.support.v7.widget.Toolbar>
+
+                </android.support.design.widget.CollapsingToolbarLayout>
+
+            </android.support.design.widget.AppBarLayout>
+
+        </android.support.design.widget.CoordinatorLayout>
+
+        <android.support.v7.widget.ButtonBarLayout
+            android:id="@+id/button_bar_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_margin="8dp"
+                android:baselineAligned="false"
+                android:orientation="horizontal">
+
+                <android.support.v7.widget.CardView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_margin="4dp"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginStart="8dp"
+                    android:layout_weight="1"
+                    app:cardCornerRadius="12dp"
+                    app:cardElevation="4dp"
+                    app:cardMaxElevation="6dp">
+
+                    <android.support.v7.widget.AppCompatEditText
+                        android:id="@+id/et_feedback"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:background="@android:color/transparent"
+                        android:hint="Type feedback here.."
+                        android:minHeight="38dp"
+                        android:paddingEnd="8dp"
+                        android:paddingStart="8dp"
+                        android:textSize="14sp" />
+
+                </android.support.v7.widget.CardView>
+
+                <FrameLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:minHeight="48dp"
+                    android:minWidth="48dp">
+
+                    <android.support.design.widget.FloatingActionButton
+                        android:id="@+id/fab"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_margin="2dp"
+                        android:tint="@android:color/white"
+                        app:elevation="6dp"
+                        app:fabSize="mini"
+                        app:srcCompat="@drawable/ic_send" />
+
+                </FrameLayout>
+
+            </LinearLayout>
+
+        </android.support.v7.widget.ButtonBarLayout>
+
+    </RelativeLayout>
+
+</android.support.design.widget.CoordinatorLayout>

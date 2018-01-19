@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/item_view"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="?attr/selectableItemBackground"
+    android:clickable="true"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:padding="8dp">
+
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp">
+
+        <com.github.siyamed.shapeimageview.CircularImageView
+            android:id="@+id/iv_image"
+            android:layout_width="56dp"
+            android:layout_height="56dp"
+            android:adjustViewBounds="true"
+            android:scaleType="centerCrop"
+            android:src="@drawable/doc_default"
+            app:siBorderAlpha="1.0"
+            app:siBorderColor="@android:color/white"
+            app:siBorderType="stroke"
+            app:siBorderWidth="2.0dp"
+            app:siStrokeCap="round"
+            app:siStrokeJoin="round" />
+
+        <FrameLayout
+            android:id="@+id/fl_checked"
+            android:layout_width="56dp"
+            android:layout_height="56dp"
+            android:background="@drawable/round_black_overlay"
+            android:visibility="gone">
+
+            <ImageView
+                android:id="@+id/iv_image_checked"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:adjustViewBounds="true"
+                android:scaleType="centerCrop"
+                android:tint="@android:color/white"
+                app:srcCompat="@drawable/ic_check" />
+
+        </FrameLayout>
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/tv_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:ellipsize="marquee"
+            android:maxLines="1"
+            android:text="Rohit Dey Roy"
+            android:textColor="@android:color/white"
+            android:textSize="14sp"
+            android:textStyle="normal" />
+
+    </FrameLayout>
+
+</LinearLayout>
