@@ -38,7 +38,8 @@
         <activity android:name=".activity.GroupDiscussionDetail" />
         <activity android:name=".activity.TreatmentSchedule" />
         <activity android:name=".activity.TreatmentEnquiryDetails" />
-        <activity android:name=".activity.SuccessStory"></activity>
+        <activity android:name=".activity.SuccessStory" />
+        <activity android:name=".activity.StudyWithPreskript"></activity>
     </application>
 
 </manifest>

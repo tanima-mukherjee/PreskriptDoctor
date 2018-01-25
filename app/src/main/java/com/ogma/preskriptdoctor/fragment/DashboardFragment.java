@@ -27,6 +27,7 @@ import com.ogma.preskriptdoctor.activity.ReferToDiagnostic;
 import com.ogma.preskriptdoctor.activity.ReferToDoctor;
 import com.ogma.preskriptdoctor.activity.ReferToHospital;
 import com.ogma.preskriptdoctor.activity.ReportCheck;
+import com.ogma.preskriptdoctor.activity.StudyWithPreskript;
 import com.ogma.preskriptdoctor.activity.SuccessStory;
 import com.ogma.preskriptdoctor.activity.TreatmentEnquiry;
 
@@ -268,7 +269,10 @@ public class DashboardFragment extends Fragment {
                         startActivity(new Intent(getActivity(), GroupDiscussion.class));
                     } else if (getAdapterPosition() == 6) {
                         startActivity(new Intent(getActivity(), TreatmentEnquiry.class));
+                    } else if (getAdapterPosition() == 7) {
+                        startActivity(new Intent(getActivity(), StudyWithPreskript.class));
                     }
+
 // else if (getAdapterPosition() == 7) {
 //                        startActivity(new Intent(getActivity(), DoctorSuggestion.class));
 //                    } else if (getAdapterPosition() == 8) {
